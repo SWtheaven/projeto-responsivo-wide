@@ -1,0 +1,148 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.link-nav{
+    width: 87px;
+    height: 20px;
+    margin-top: 47px;
+    margin-left: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button-nav{
+width: 124px;
+height: 51px;
+border-radius: 6px;
+border: 1px #4cb538;
+margin-top: 13px;
+margin-left: 28px;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 1px;
+background: #6fbf44;
+color: #ffffff;
+cursor: pointer;
+
+}
+
+.img-main{
+    width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 123px;
+}
+
+section{
+    display: inline-block
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    margin-left: 50px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+
+}
+
+p{
+width: 493px;
+height: 99px;
+margin-left: 50px;
+color:#4B505A;
+}
+
+.link-main{
+    width: 112px;
+    height: 27px;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6fbf44;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .link-nav{
+        display: none;
+    }
+
+    .button-nav{
+        position:sticky;
+        left: 350px;
+        margin-top: 20px;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 1px;
+
+    }
+
+    .img-main{
+        width: 312px;
+        height: 288%;
+        margin: 0 auto;
+        display: grid;
+        grid-auto-rows: 100px;
+        position: relative;
+        top: 580px;
+        
+    }
+
+    h1{
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        position: relative;
+        bottom: 200px;
+        margin-right: 20px;
+    }
+
+    p{
+        width: auto;
+        margin-left: 50px;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        bottom: 200px;
+        margin-right: 20px;
+    }
+
+    .link-main{
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        bottom: 180px;
+        display: grid;
+        align-items: center;
+        width: auto;
+     
+
+    }
+
+    section{
+        text-align: center;
+    
+}
+}
